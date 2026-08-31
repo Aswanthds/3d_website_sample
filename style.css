@@ -93,13 +93,14 @@ p {
 .hero-sequence {
   position: relative;
   height: 400vh; /* Determines how long the scroll lasts */
+  padding-top: 90px; /* Space between navbar and hero content */
 }
 
 .sticky-container {
   position: sticky;
-  top: 0;
+  top: 90px; /* Stick below the navbar */
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 90px);
   overflow: hidden;
   display: flex;
   align-items: center;
